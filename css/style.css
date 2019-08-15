@@ -1,1 +1,140 @@
 
+
+body {
+    background: #343346;
+    font-style: normal;
+    margin: 0 auto;
+}
+header { 
+    height: 360px;
+    z-index: 10;
+ 
+    
+
+}
+.header-banner {
+    background-color: #333;
+    background-image:
+    url('https://images.unsplash.com/photo-1532444143931-9f60a76242e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width:100%;
+height: 400px;
+}
+   
+header h1 {
+   background-color: rgba(255, 255, 255, 0.281);
+   color: rgb(102, 42, 2);
+   border: 1px solid #754f4f;
+   font-family: arial;
+   padding: 0 1rem;
+   position: absolute;
+   top: 2rem;
+   left: 2rem;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:  100%;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background:#292f36;
+    position: fixed;
+    z-index: 10;
+}
+
+nav div {
+    color: white;
+    font-size: 2rem;
+    line-height: 60px;
+    position: absolute;
+    top: 0;
+    left: 2%;
+    visibility: hidden;
+}
+
+.visible-title {
+    visibility: visible;
+
+}
+nav ul {
+    list-style-type: none;
+    margin: 0 2% auto 0;
+    padding-left: 0;
+    text-align: right;
+    max-width:100%;
+}
+
+nav ul li { 
+    display: inline-block; 
+    line-height: 60px;
+    margin-left: 10px;
+}
+nav ul li a {
+    text-decoration: none; 
+    color: #a9abae;
+}
+
+figure {
+    background: #ebb58c;
+    position: relative;
+    width:350px;
+    
+}
+
+figcaption {
+    font-family: 'Times New Roman';
+    text-align: center;
+    padding: 5px;
+
+}
+nav {
+    font-family: Arial;
+    font-weight: 900;
+}
+
+li { 
+    display: inline;
+    margin-right: 10px;
+
+}
+li.coming-soon {
+
+visibility: hidden;
+}
+/* Width-height */
+
+div {
+    height: 700px;
+    width: 700px;
+    background-color: #ee3e80;
+    margin: 10px auto 10px auto;
+}
+
+p {
+    height: 75%;
+    width:75%;
+    background-color: #e1ddda;
+    padding: 150px;
+   
+}
+
+
+p.description {
+    min-width: 450px;
+    max-width: 650px;
+    text-align: left;
+    padding: 5px;
+    margin:0px;
+    overflow: scroll;
+    margin: 10px auto 10px auto;
+
+}
+
+
