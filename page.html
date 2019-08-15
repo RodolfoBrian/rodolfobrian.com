@@ -1,0 +1,219 @@
+<html>
+
+<head>
+    <title>Minas Transfer</title>
+    <Script src="corrency.js"></Script>
+    <style>
+        body {
+            margin: 0 auto;
+            background-image: url(london_image.jpg);
+            background-size: cover;
+        }
+
+        .container {
+            background-color: #432546;
+            display: inline;
+        }
+
+          header {
+            height: 350px;
+            width: 960px;
+            background-color: rgb(255, 255, 255);
+            margin: 0 auto;
+
+        }
+
+        .logo {
+            padding: 20px;
+            display: inline-block;
+            width: 45px;
+        }
+
+        /* nav {
+            background-color: rgb(32, 32, 61);
+            width: 960px;
+            height: 50px;
+            font-size: 14px;            
+        } */
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 960px;
+            overflow: hidden;
+            background-color: rgb(116, 12, 12);
+        }
+
+        ul.nav li a.active {
+            background-color: #f54;
+            color: white;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: arial;
+        }
+
+        li a:hover {
+            background-color: #f54;
+            color: white;
+        }
+
+      .container-box {
+            background-color: #aaa;
+            text-align: center;
+            padding: 0px;
+            height: 300px;
+            width: 960px;
+            margin: auto; 
+
+        }
+
+        .list-right {
+
+            width: 100px;
+            height: 100px;
+            background-color: #fff;
+            border: 1px solid #000;
+            float: left;
+            padding: 5px;
+            margin: 5px;
+            font-family: arial;
+
+        }
+
+        .list-right:hover {
+            background-color: #f54;
+            color: #fff;
+        }
+
+        .list-right:active {
+            background-color: greenyellow;
+            color:#f54;
+        }
+
+        #Current-Rate {
+            background-color: #DEE0E3;
+            border:1px solid#aaa;
+            text-align: center;
+            padding: 5px;
+            height: 100px;
+            width: 480px;
+            margin: 15 auto;
+            font-family: Arial;
+
+        }
+        .rate {
+            color:#000;
+            margin: 0 auto;
+            text-align: center;
+            
+        }
+
+        span { color:#f54; font-weight: bold;}
+
+        input {
+             font-size: 100%;
+             color: #5a5854;
+             background-color: #f2f2f2;
+             border: 1px solid #bdbdbd;
+             border-radius: 5px;
+             padding: 5px 5px 5px  30px;
+             background-repeat: no-repeat;
+             background-position: 8px 9px;
+             display: inline-block;
+             margin-bottom: 10px;
+             
+         }
+
+
+       
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="page.html"><img src="MinasTrans.jpg"/></a>
+            </div>
+            <nav>
+                <ul class="nav">
+                    <li>
+                        <a class="#" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Minas Transfer</a>
+                    </li>
+                    <li>
+                        <a href="#">Our Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                </ul>
+            </nav>
+ <div id="Current-Rate">
+     <h3>Currency Rate</h3>
+     <div class="rate">
+       <!--- 
+         <span>Real</span> 4.70
+         <span>Dollar</span> 1.45
+         <span>Euro</span> 1.20 -->
+
+         
+
+         <label for="GBP"> GBP </label>
+         <input type="text" id="GBP" size="5" value="0" onchange="gbpfunc()"/>
+         
+     
+         </br>
+         <label for="USD"> USD </label>
+         <input type="text" id="USD" size="5" value="0" onchange="usdfunc()" />
+         
+     
+         </br>
+         <label for="EUR"> EUR </label>
+         <input type="text" id="EUR" size="5" value="0" onchange="eurfunc()" />
+         
+     
+         </br>
+
+     </div>
+    
+ </div>
+        
+        </header>
+
+        <div class="container-box">
+            <div class="list-right">
+                Box 1
+            </div>
+
+            <div class="list-right">
+                Box 2
+            </div>
+
+            <div class="list-right">
+                Box 3
+            </div>
+            <div class="list-right">
+                Box 4
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
