@@ -112,8 +112,8 @@ visibility: hidden;
 
 
 
-@media(max-width: 500px) {
-    body{background-color:#f5ed0e;}
+@media(min-width: 300px) {
+    body{background-color:#2196F3;}
     
 }
     
