@@ -138,4 +138,10 @@ p.description {
 
 }
 
+@media query (max-width: 450px) {
+    body{background-color:#545335;}
+    
+}
+    
+
 
