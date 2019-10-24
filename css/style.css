@@ -112,20 +112,6 @@ visibility: hidden;
 
 
 
-
-
-
-p.description {
-    min-width: 450px;
-    max-width: 650px;
-    text-align: left;
-    padding: 5px;
-    margin:0px;
-    overflow: scroll;
-    margin: 10px auto 10px auto;
-
-}
-
 @media query (max-width: 450px) {
     body{background-color:#545335;}
     
