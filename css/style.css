@@ -110,12 +110,7 @@ visibility: hidden;
 }
 /* Width-height */
 
-div {
-    height: 700px;
-    width: 700px;
-    background-color: #ee3e80;
-    margin: 10px auto 10px auto;
-}
+
 
 p {
     height: 75%;
