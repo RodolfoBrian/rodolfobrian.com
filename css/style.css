@@ -112,7 +112,7 @@ visibility: hidden;
 
 
 
-@media(min-width: 300px) {
+@media(max-width: 300px) {
     body{background-color:#a83232;}
     
 }
