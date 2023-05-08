@@ -1,1 +1,4 @@
+This is a Brave Rewards publisher verification file.
 
+Domain: rodolfobrian.com
+Token: 56c26a9d60bd4a2c2cadc02e5e69c6d4a498de9b48c31c33a26b590eeb322a43
